@@ -85,6 +85,7 @@ const Landing = () => {
             setDisplay('stanza');
         } else setDisplay('poem');
     }
+    
     return (
         <HomeTheme>
             <div>
