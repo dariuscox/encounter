@@ -13,9 +13,14 @@ const PoetryBox = styled(Box)`
     border: 5px;
     border-color: green;
     color: black;
+    /* text-align: justify; */
     /* &:hover {
         background-color: #9d74d3;
     } */
 `;
 
-export { PoetryBox };
+const StanzaSpacing = styled(Box)`
+    padding-top: 10px;
+`;
+
+export { PoetryBox, StanzaSpacing };
