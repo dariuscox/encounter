@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import Box from '@material-ui/core/Box';
-import { paper, paper2 } from 'images';
+import { paper2 } from 'images';
 
 const PoetryBox = styled(Box)`
     /* background-color: #e2d1d1; // #6772e5; */
@@ -13,10 +13,6 @@ const PoetryBox = styled(Box)`
     border: 5px;
     border-color: green;
     color: black;
-    /* text-align: justify; */
-    /* &:hover {
-        background-color: #9d74d3;
-    } */
 `;
 
 const StanzaSpacing = styled(Box)`
